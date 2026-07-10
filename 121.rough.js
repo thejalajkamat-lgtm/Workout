@@ -49,6 +49,7 @@
 //     })
 
 const figlet = require('figlet');
+console.log("Fahhhhhh!!!")
 
 figlet("Hello World!!", function (err, data) {
   if (err) {
