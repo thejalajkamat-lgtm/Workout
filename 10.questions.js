@@ -51,7 +51,7 @@
 // }
 // console.log(count)
 
-//Q3.Email as password jalaj@gmail.com = j****@gmail.com
+// Q3.Email as password jalaj@gmail.com = j****@gmail.comthe
 // let email = prompt("Enter an email: ")
 // let new_email1  = email.slice(1, email.indexOf("@") )
 // if (email.includes("@") && email.endsWith(".com")){
@@ -71,17 +71,17 @@ let initials = part.map(word=>word[0].toUpperCase()).join(".")
 console.log(initials)*/
 
 //Q5.Password = 8 characters long + atleast one uppercase + atleast one lowercase + atleast one numeric. Now validate this password
-// let password = prompt("Enter a password: ")
-// let numeric ="1234567890"
-// let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-// let lower = "abcdefghijklmnopqrstuvwxyz"
-// for(i=0;i<password.length;i++){
-//         if(password.length<8 && lower.includes(password[i]) && upper.includes(password[i])){
-//                 console.log("VALID password")
-//         }else{
-//                 console.log("INVALID password")
-//         }
-// }
+let password = prompt("Enter a password: ")
+let numeric ="1234567890"
+let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let lower = "abcdefghijklmnopqrstuvwxyz"
+for(i=0;i<password.length;i++){
+        if(password.length<8 && lower.includes(password[i]) && upper.includes(password[i])){
+                console.log("VALID password")
+        }else{
+                console.log("INVALID password")
+        }
+}
 
 //Q6.Remove duplicates from an array
 let arr = prompt("Enter the array elements separated by comma: ").split(",").map(Number)
@@ -94,11 +94,11 @@ for(i=0;i<arr.length;i++){
 console.log(uniqueArr)
 
 //Q7.From an array of numbers, create a new array containing only the squares of the even numbers
-let arr = prompt("Enter the array elements separated by comma: ").split(",").map(Number)
-let squareEvenArr = []
-for(i=0;i<arr.length;i++){
-        if(arr[i]%2==0){
-                squareEvenArr.push(arr[i]**2)
-        }
-}
-console.log(squareEvenArr)
+// let arr = prompt("Enter the array elements separated by comma: ").split(",").map(Number)
+// let squareEvenArr = []
+// for(i=0;i<arr.length;i++){
+//         if(arr[i]%2==0){
+//                 squareEvenArr.push(arr[i]**2)
+//         }
+// }
+// console.log(squareEvenArr)

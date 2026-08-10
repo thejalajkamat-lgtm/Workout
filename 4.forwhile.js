@@ -3,7 +3,6 @@ for(let i=1; i<=100; i++){
       console.log("Jalaj Kamat");
 }
 
-
 //Sum of 1 to n
 let n = prompt("Enter value of n : ");
 console.log("Value of n is ", n)
@@ -28,7 +27,6 @@ while(i<=5){
     console.log("Jalaj Kamat");
     i++;
 }
-
 
 //Do While Loop
 let j = 20;
