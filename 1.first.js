@@ -40,6 +40,7 @@ student["name"] = "Rahul Sharma"
 console.log(student["age"]);
 console.log(student.cgpa);  // same as above
 console.log(student.name);
+console.log("hoes are horrible!!!")
 
 
 //Primitive Datatypes(7) - Numbers, Strinng, Boolean, Undefined, Null, Bigint, Symbol
